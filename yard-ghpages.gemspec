@@ -17,7 +17,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.require_paths = %w(lib)
 
-  gem.add_dependency('rake', '~> 11.1')
+  gem.add_dependency('rake', '>=12.0.0')
   gem.add_dependency('yard', '~> 0.8')
   gem.add_dependency('git', '~> 1.3')
 
